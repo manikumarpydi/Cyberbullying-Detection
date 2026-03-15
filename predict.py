@@ -1,7 +1,6 @@
 import pickle
 from preprocessing import clean_text
 
-# load model
 model = pickle.load(open("models/model.pkl", "rb"))
 vectorizer = pickle.load(open("models/vectorizer.pkl", "rb"))
 
